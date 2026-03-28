@@ -2,7 +2,7 @@
 
 > Stock trend detection with technical analysis, algorithm tester, multi-timeframe signals, and (in future) trade approval workflows.
 
-![General View](docs/screenshots/general_view.png)](docs/screenshots/general_view.png)
+![General View](docs/screenshots/general_view.png)
 
 ## Screenshots
 
