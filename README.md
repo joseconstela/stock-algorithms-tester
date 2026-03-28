@@ -63,6 +63,11 @@ Open **http://localhost:5173** in your browser.
 2. Go to **Settings** and add a symbol to the watchlist (e.g. `TSLA`, `AAPL`, or `ASML.AS` for European stocks)
 3. The analysis service fetches historical data from Yahoo Finance every 2 minutes
 4. Signals, indicators, and candle data will appear on the **Dashboard** and **Ticker Detail** pages
+5. To test different algorithms, go to **Tester**, select your tickers and strategies, and fine-tune their parameters. Available strategies include:
+   - `bollinger_reversal` — Bollinger Bands mean-reversion signals
+   - `ma_crossover` — Moving average crossover signals
+   - `macd_crossover` — MACD line crossover signals
+   - `rsi_reversal` — RSI overbought/oversold reversal signals
 
 > **Note:** European stocks use exchange suffixes: `.AS` (Amsterdam), `.L` (London),
 > `.DE` (Frankfurt), `.PA` (Paris), `.MC` (Madrid), `.MI` (Milan), `.SW` (Swiss).
